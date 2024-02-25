@@ -16,7 +16,7 @@ export default function Page() {
           <h1 id="user-name">Mohamed Aimane Skhairi</h1>
           <p id="bio">
             Senior Software engineer, Mobile Apps and Full Stack Development,
-            Freelancer Consultant at{' '}
+            Freelancer Consultant via{' '}
             <a
               href="https://www.upwork.com/freelancers/medaimane"
               target="_blank"
@@ -109,8 +109,13 @@ export default function Page() {
 
         <div className="card--work-history">
           <strong>
-            👨‍💻 Senior Software Engineer • App Developer | Mobile & Web
-            Consultant at Upwork
+            👨‍💻 Senior Software Engineer | Mobile & Web Consultant via{' '}
+            <a
+              href="https://www.upwork.com/freelancers/medaimane"
+              target="_blank"
+            >
+              Upwork
+            </a>
           </strong>
           <p>💼 Full Time | 📍 Remote - Worldwide</p>
           <p>🗓️ 06/2021 - Present</p>
@@ -127,8 +132,10 @@ export default function Page() {
 
         <div className="card--work-history">
           <strong>
-            👨‍💻 Senior React Native Mobile & FullStack Engineer | Tech Lead at
-            FluentU
+            👨‍💻 Senior React Native Mobile & FullStack Engineer | Tech Lead at{' '}
+            <a href="https://www.fluentu.com/" target="_blank">
+              FluentU
+            </a>
           </strong>
           <p>💼 Freelance Full-Time | 📍 Remote - United State</p>
           <p>🗓️ 01/2022 - Present</p>
@@ -175,7 +182,12 @@ export default function Page() {
         <div className="line-break"></div>
 
         <div className="card--work-history">
-          <strong>👨‍💻 Senior React Native Frontend Engineer at LyfShort</strong>
+          <strong>
+            👨‍💻 Senior React Native Frontend Engineer at{' '}
+            <a href="https://lyfshort.com/" target="_blank">
+              LyfShort
+            </a>
+          </strong>
           <p>💼 Freelance Part-Time | 📍 Remote - Australia</p>
           <p>🗓️ 12/2021 - 11/2023</p>
           <p>
@@ -233,7 +245,14 @@ export default function Page() {
 
         <div className="card--work-history">
           <strong>
-            👨‍💻 React Native Mobile Engineer at CareXS via TT-Technologies
+            👨‍💻 React Native Mobile Engineer at{' '}
+            <a href="https://carexs.com/" target="_blank">
+              CareXS
+            </a>{' '}
+            via{' '}
+            <a href="https://www.linkedin.com/company/tt-technologies/">
+              TT-Technologies
+            </a>
           </strong>
           <p>💼 Full-Time | 📍 Remote - Amsterdam, Netherlands</p>
           <p>🗓️ 05/2019 - 03/2022</p>
@@ -295,7 +314,12 @@ export default function Page() {
         <div className="line-break"></div>
 
         <div className="card--work-history">
-          <strong>👨‍💻 Software Engineer Consultant at Hatchways (YC S19)</strong>
+          <strong>
+            👨‍💻 Software Engineer Consultant at{' '}
+            <a href="https://www.hatchways.io/" target="_blank">
+              Hatchways
+            </a>
+          </strong>
           <p>💼 Freelance Part-Time | 📍 Remote - Canada</p>
           <p>🗓️ 06/2021 - 10/2021</p>
           <p>
@@ -315,7 +339,14 @@ export default function Page() {
 
         <div className="card--work-history">
           <strong>
-            👨‍💻 Frontend Software Engineer at CareXS via TT-Technologies
+            👨‍💻 Frontend Software Engineer at{' '}
+            <a href="https://carexs.com/" target="_blank">
+              CareXS
+            </a>{' '}
+            via{' '}
+            <a href="https://www.linkedin.com/company/tt-technologies/">
+              TT-Technologies
+            </a>
           </strong>
           <p>💼 Full-Time | 📍 Remote - Amsterdam, Netherlands</p>
           <p>📆 12/2018 - 4/2019</p>
