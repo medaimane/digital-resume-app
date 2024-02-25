@@ -2,8 +2,9 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  output: 'export',
   distDir: 'dist',
+  output: 'export',
+  basePath: 'digital-resume-app',
 }
  
 module.exports = nextConfig
