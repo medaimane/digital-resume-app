@@ -27,6 +27,10 @@
   color: var(--mainTextColor);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--mainBgColor);
 }
@@ -150,6 +154,31 @@ a {
 .line-break {
   background-color: var(--mainBorderColor);
   height: 1px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3em;
+}
+
+.footer--copy {
+  font-weight: 100;
+  font-size: 0.7em;
+}
+
+.footer--scroll {
+  font-weight: 300;
+  font-size: 0.7em;
+  color: var(--secondaryTextColor);
+  transition: 1s;
+}
+
+.footer--scroll:hover {
+  font-weight: 100;
+  font-size: 0.9em;
+  color: var(--mainLinkColor);
 }
 
 @media (max-width: 600px) {
