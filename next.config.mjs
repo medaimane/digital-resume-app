@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const isProd = process.env.NODE_ENV === 'production';
+const devConfig = {};
 
 const prodConfig = {
   distDir: 'dist',
@@ -12,10 +12,7 @@ const prodConfig = {
   basePath: '/digital-resume-app',
 };
 
-const devConfig = {};
-
+const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = isProd ? prodConfig : devConfig;
-
-console.log('isProd', isProd);
 
 export default nextConfig;
