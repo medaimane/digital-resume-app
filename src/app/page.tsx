@@ -162,13 +162,15 @@ export default function Page() {
             At FluentU, where language learning transforms into an adventure, my
             role as a Senior Full-Stack Mobile App Engineer has been pivotal in
             shaping the innovative Parrot Language Learning App.{' '}
-            <b>Alan P, FluentU’s Founder</b>, echoes his satisfaction:{' '}
-            <blockquote>
-              Mohamed is a very talented and reliable developer - we are lucky
-              to work with him. He is very thoughtful and thorough and someone
-              who will think of the bigger picture. He is also pleasant to work
-              with and a great communicator. Thank you, Mohamed!
-            </blockquote>{' '}
+            <b>Alan P, FluentU’s Founder</b>, echoes his satisfaction:
+          </p>
+          <blockquote>
+            Mohamed is a very talented and reliable developer - we are lucky to
+            work with him. He is very thoughtful and thorough and someone who
+            will think of the bigger picture. He is also pleasant to work with
+            and a great communicator. Thank you, Mohamed!
+          </blockquote>
+          <p>
             The Parrot app introduced a refreshing approach to language learning
             through interactive, dialogue-based stories, covering languages such
             as English, Spanish, French, German, Mandarin Chinese, Russian,
@@ -213,11 +215,13 @@ export default function Page() {
             As a Senior React Native Engineer at LyfShort, my commitment to
             excellence is echoed in the words of{' '}
             <b>Steven F, LyfShort's Founder:</b>
-            <blockquote>
-              It was great to work with Mohamed on our project. He is strong
-              React Native developer, good communicator and reliable team
-              member. We will hire him again
-            </blockquote>{' '}
+          </p>
+          <blockquote>
+            It was great to work with Mohamed on our project. He is strong React
+            Native developer, good communicator and reliable team member. We
+            will hire him again
+          </blockquote>
+          <p>
             In this role, I spearheaded the development of a comprehensive trip
             and organizer app, catering to IOS, Android, and Web platforms. The
             app addresses significant pain points associated with planning trips
