@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 import Config from '../../next.config.mjs';
 
@@ -6,25 +7,25 @@ export default function Page() {
     <div id="container--main">
       <section id="wrapper--hero" className="section--page">
         <Image
-          id="profile-pic"
+          id="photo"
           src={`${Config.basePath}/assets/images/me.jpeg`}
-          alt="Profile Avatar"
-          width={150}
-          height={150}
+          alt="My Photo"
+          height={180}
+          width={180}
         />
 
         <div>
-          <h1 id="user-name">Mohamed Aimane Skhairi</h1>
+          <h1 id="headline">Mohamed Aimane Skhairi</h1>
           <p id="bio">
             Senior Software engineer, Mobile Apps and Full Stack Development,
             Freelancer Consultant via{' '}
-            <a
+            <Link
               href="https://www.upwork.com/freelancers/medaimane"
               target="_blank"
             >
               Upwork
-            </a>
-            , React Native Expert.
+            </Link>
+            , Expert in React Native & Expo.
           </p>
           <p id="email">👉 medaimane.skhairi@gmail.com</p>
         </div>
@@ -32,24 +33,24 @@ export default function Page() {
 
       <section className="section--page">
         <div id="socials--list">
-          <a href="https://instagram.com/medaimane" target="_blank">
+          <Link href="https://instagram.com/medaimane" target="_blank">
             📸 Instagram
-          </a>
-          <a href="https://twitter.com/med_aimane" target="_blank">
+          </Link>
+          <Link href="https://twitter.com/med_aimane" target="_blank">
             ☕️💡 X (Twitter)
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://www.linkedin.com/in/med_aimane_skahiri/"
             target="_blank"
           >
             🤝 LinkedIn
-          </a>
-          <a href="https://github.com/medaimane" target="_blank">
-            👨‍💻 Github
-          </a>
-          <a href={`${Config.basePath}/assets/pdf/resume.pdf`} target="_blank">
+          </Link>
+          <Link href="https://github.com/medaimane" target="_blank">
+            👨‍💻 GitHub
+          </Link>
+          <Link href={`${Config.basePath}/assets/pdf/resume.pdf`} target="_blank">
             📜 Download Resume
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -62,7 +63,8 @@ export default function Page() {
         <p>What I Bring:</p>
         <ul id="qualifications--list">
           <li>
-            ✔️ 🏆 6+ years specializing in Mobile Apps & FullStack solutions.
+            ✔️ 🏆 6+ years specializing in React Native Mobile Apps & FullStack
+            solutions.
           </li>
           <li>
             ✔️ 🚀 Expert in integrating AI, Cloud solutions, and third-party
@@ -130,12 +132,12 @@ export default function Page() {
         <div className="card--work-history">
           <strong>
             👨‍💻 Senior Software Engineer | Mobile & Web Consultant via{' '}
-            <a
+            <Link
               href="https://www.upwork.com/freelancers/medaimane"
               target="_blank"
             >
               Upwork
-            </a>
+            </Link>
           </strong>
           <p>💼 Full Time | 📍 Remote - Worldwide</p>
           <p>🗓️ 06/2021 - Present</p>
@@ -153,9 +155,9 @@ export default function Page() {
         <div className="card--work-history">
           <strong>
             👨‍💻 Senior React Native Mobile & FullStack Engineer | Tech Lead at{' '}
-            <a href="https://www.fluentu.com/" target="_blank">
+            <Link href="https://www.fluentu.com/" target="_blank">
               FluentU
-            </a>
+            </Link>
           </strong>
           <p>💼 Freelance Full-Time | 📍 Remote - United State</p>
           <p>🗓️ 01/2022 - Present</p>
@@ -206,9 +208,9 @@ export default function Page() {
         <div className="card--work-history">
           <strong>
             👨‍💻 Senior React Native Frontend Engineer at{' '}
-            <a href="https://lyfshort.com/" target="_blank">
+            <Link href="https://lyfshort.com/" target="_blank">
               LyfShort
-            </a>
+            </Link>
           </strong>
           <p>💼 Freelance Part-Time | 📍 Remote - Australia</p>
           <p>🗓️ 12/2021 - 11/2023</p>
@@ -270,13 +272,13 @@ export default function Page() {
         <div className="card--work-history">
           <strong>
             👨‍💻 React Native Mobile Engineer at{' '}
-            <a href="https://carexs.com/" target="_blank">
+            <Link href="https://carexs.com/" target="_blank">
               CareXS
-            </a>{' '}
+            </Link>{' '}
             via{' '}
-            <a href="https://www.linkedin.com/company/tt-technologies/">
+            <Link href="https://www.linkedin.com/company/tt-technologies/">
               TT-Technologies
-            </a>
+            </Link>
           </strong>
           <p>💼 Full-Time | 📍 Remote - Amsterdam, Netherlands</p>
           <p>🗓️ 05/2019 - 03/2022</p>
@@ -340,9 +342,9 @@ export default function Page() {
         <div className="card--work-history">
           <strong>
             👨‍💻 Software Engineer Consultant at{' '}
-            <a href="https://www.hatchways.io/" target="_blank">
+            <Link href="https://www.hatchways.io/" target="_blank">
               Hatchways
-            </a>
+            </Link>
           </strong>
           <p>💼 Freelance Part-Time | 📍 Remote - Canada</p>
           <p>🗓️ 06/2021 - 10/2021</p>
@@ -364,13 +366,13 @@ export default function Page() {
         <div className="card--work-history">
           <strong>
             👨‍💻 Frontend Software Engineer at{' '}
-            <a href="https://carexs.com/" target="_blank">
+            <Link href="https://carexs.com/" target="_blank">
               CareXS
-            </a>{' '}
+            </Link>{' '}
             via{' '}
-            <a href="https://www.linkedin.com/company/tt-technologies/">
+            <Link href="https://www.linkedin.com/company/tt-technologies/">
               TT-Technologies
-            </a>
+            </Link>
           </strong>
           <p>💼 Full-Time | 📍 Remote - Amsterdam, Netherlands</p>
           <p>📆 12/2018 - 4/2019</p>
@@ -433,7 +435,7 @@ export default function Page() {
         <div className="line-break"></div>
 
         <div className="card--work-history">
-          <strong>👨‍💻 Full-Stack JavaScript Engineer</strong>
+          <strong>👨‍💻 Full-Stack JavaScript Engineer at FMJ Technology</strong>
           <p>💼 Full-Time | 📍 On-Site - Tangier, Morocco</p>
           <p>🗓️ 01/2018 - 07/2018</p>
           <p>
@@ -475,20 +477,20 @@ export default function Page() {
       </section>
 
       <section className="section--page">
-        <h2>Projects & Accomplishments</h2>
+        <h2>Projects & Accomplishments (In Progress...)</h2>
 
         <div className="card--project">
-          <a href="#">
+          <p>
             <span>🏆 </span>Public procurement service management solution -
             Java application.
-          </a>
+          </p>
         </div>
 
         <div className="card--project">
-          <a href="#">
+          <p>
             <span>🏆 </span>Commercial service management solution - Web
             application.
-          </a>
+          </p>
         </div>
       </section>
 
