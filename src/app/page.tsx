@@ -48,7 +48,7 @@ export default function Page() {
           <Link href="https://github.com/medaimane" target="_blank">
             👨‍💻 GitHub
           </Link>
-          <Link href={`${Config.basePath}/assets/pdf/resume.pdf`} target="_blank">
+          <Link href="/assets/pdf/resume.pdf" target="_blank">
             📜 Download Resume
           </Link>
         </div>
