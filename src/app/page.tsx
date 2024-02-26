@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Config from '../../next.config.mjs';
 
 export default function Page() {
   return (
@@ -6,7 +7,7 @@ export default function Page() {
       <section id="wrapper--hero" className="section--page">
         <Image
           id="profile-pic"
-          src="/assets/images/me.jpeg"
+          src={`${Config.basePath}/assets/images/me.jpeg`}
           alt="Profile Avatar"
           width={150}
           height={150}
@@ -46,7 +47,7 @@ export default function Page() {
           <a href="https://github.com/medaimane" target="_blank">
             👨‍💻 Github
           </a>
-          <a href="/assets/pdf/resume.pdf" target="_blank">
+          <a href={`${Config.basePath}/assets/pdf/resume.pdf`} target="_blank">
             📜 Download Resume
           </a>
         </div>
