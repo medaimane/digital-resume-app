@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 
-const devConfig = {};
+const devConfig = {
+  basePath: ''
+};
 
 const prodConfig = {
   distDir: 'dist',
