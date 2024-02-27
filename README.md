@@ -1,4 +1,16 @@
+# Digital Resume - NextJS App
+
+Plying with NextJS, I've built a digital version of my resume.
+
+## About
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+👉 App Deployed using GitHub Actions/Pages: [Demo](https://medaimane.github.io/digital-resume-app/)
+
+🚧 The app is still under development, feel free to check it out and share your feedback!
+
+Note: The initial markup and styles code is taken from **Dennis Ivy** repo: [Digital-Resume](https://github.com/divanov11/Digital-Resume)
 
 ## Getting Started
 
