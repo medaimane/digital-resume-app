@@ -154,11 +154,10 @@ a {
   height: 1px;
 }
 
-.footer {
+.footer--bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.3em;
 }
 
 .footer--copy {
@@ -191,7 +190,7 @@ a {
     gap: 1em;
   }
 
-  #profile-pic {
+  #photo {
     width: 200px;
     height: 200px;
   }

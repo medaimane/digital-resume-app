@@ -36,7 +36,7 @@ export default function SkillsSection() {
         </li>
         <li>
           ✔️ 🧪 Committed to top-notch quality: Modular, scalable, clean, and
-          well-tested code.
+          well-tested solutions.
         </li>
       </ul>
     </section>
