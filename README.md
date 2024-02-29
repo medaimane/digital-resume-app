@@ -1,5 +1,7 @@
 # Digital Resume - NextJS App
 
+[![Build & Deploy](https://github.com/medaimane/digital-resume-app/actions/workflows/main.yml/badge.svg)](https://github.com/medaimane/digital-resume-app/actions/workflows/main.yml)
+
 Plying with NextJS, I've built a digital version of my resume.
 
 ## About
