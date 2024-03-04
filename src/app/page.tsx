@@ -19,8 +19,6 @@ export default function Page() {
 
       <WorkHistorySection />
 
-      <ProjectsSection />
-
       <Footer />
     </div>
   );
