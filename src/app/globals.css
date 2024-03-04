@@ -58,6 +58,16 @@ li {
   padding: 1em;
 }
 
+.header--theme_button {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: var(--secondaryTextColor);
+  transition: 1s;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
 .section--page {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -187,16 +197,13 @@ a {
   #wrapper--hero {
     display: flex;
     align-items: center;
+    flex-direction: column;
     gap: 1em;
   }
 
   #photo {
     width: 200px;
     height: 200px;
-  }
-
-  #wrapper--hero {
-    flex-direction: column;
   }
 
   .card--work-history {
